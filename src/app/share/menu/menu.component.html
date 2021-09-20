@@ -1,0 +1,37 @@
+<p-menubar [model]="items">
+
+  <ng-template pTemplate="start">
+    <img src="assets/images/pearlsLogo.png" height="40" class="p-mr-2">
+  </ng-template>
+
+  <ng-template pTemplate="end">
+    <div class="p-inputgroup p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input type="text" pInputText>
+      <button type="button" pButton pRipple icon="pi pi-arrow-circle-right"></button>
+    </div>
+    <a href="javascript:" class="project_name">Current Project Name</a>
+    <p-tabMenu [model]="items2"></p-tabMenu>
+  </ng-template>
+
+</p-menubar>
+
+<p-tabView>
+
+  <p-tabPanel header="Home">
+    <p-tabMenu [model]="itemsTabs"></p-tabMenu>
+  </p-tabPanel>
+
+  <p-tabPanel header="Tools">
+    <p-tabMenu [model]="itemsTabs"></p-tabMenu>
+  </p-tabPanel>
+
+  <p-tabPanel header="Reviews" [selected]="true">
+    <p-tabMenu [model]="itemsTabs2"></p-tabMenu>
+  </p-tabPanel>
+
+  <p-tabPanel header="Help">
+    <p-tabMenu [model]="itemsTabs"></p-tabMenu>
+  </p-tabPanel>
+
+</p-tabView>
