@@ -25,6 +25,7 @@ body{
   .p-tabview .p-tabview-nav {
     background: transparent !important;
     margin-top: 10px;
+    border: none !important;
   }
   .p-tabview-nav{
     li{
@@ -55,6 +56,7 @@ body{
   .tab-view{
     .p-tabview-panels{
       height: 91vh;
+      padding: 0 !important;
     }
   }
 }
@@ -161,4 +163,14 @@ body{
     }
   }
 }
-
+.p-splitter-panel-nested{
+  display: block !important;
+}
+.p-splitter-horizontal>.p-splitter-gutter {
+  width: 8px !important;
+  background: #f2f1f3;
+  border: 1px #e1e1e1 solid;
+}
+.text-container{
+  padding: 20px;
+}

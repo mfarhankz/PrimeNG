@@ -19,6 +19,9 @@ import { DropdownModule } from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import {CardModule} from 'primeng/card';
+import { SplitterComponent } from './shared/splitter/splitter.component';
+import { SplitterLeftComponent } from './shared/splitter-left/splitter-left.component';
+import { SplitterRightComponent } from './shared/splitter-right/splitter-right.component';
 
 
 
@@ -26,7 +29,10 @@ import {CardModule} from 'primeng/card';
   declarations: [
     AppComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    SplitterComponent,
+    SplitterLeftComponent,
+    SplitterRightComponent
   ],
   imports: [
     BrowserModule,
