@@ -90,6 +90,7 @@
   .p-tabmenu{
     .p-tabmenu-nav {
       border: 0 !important;
+      position: relative;
       .p-highlight{
         .p-menuitem-link{
           background: rgba(63, 81, 181, 0.04) !important;
@@ -130,6 +131,14 @@
           background: url("../svg-icons/delete.svg");
         }
       }
+      .p-tabmenu-ink-bar {
+        display: block !important;
+        height: 2px;
+        background: #6f91f2;
+        position: absolute;
+        bottom: 0;
+        transition: transform 5s;
+      }
     }
   }
 
@@ -159,9 +168,9 @@
         color: #fff !important;
         padding: 0.75rem 2.5rem !important;
       }
-      .p-tabview-ink-bar{
-        display: none !important;
-      }
+      //.p-tabview-ink-bar{
+      //  display: none !important;
+      //}
     }
   }
 }

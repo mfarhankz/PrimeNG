@@ -49,9 +49,9 @@ body{
         }
       }
     }
-    .p-tabview-ink-bar{
-      display: none !important;
-    }
+    //.p-tabview-ink-bar{
+    //  display: none !important;
+    //}
   }
   .tab-view{
     .p-tabview-panels{
@@ -173,4 +173,9 @@ body{
 }
 .text-container{
   padding: 20px;
+}
+.p-element{
+  &:focus{
+    box-shadow: none !important;
+  }
 }
