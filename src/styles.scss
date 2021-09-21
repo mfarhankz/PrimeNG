@@ -1,6 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/styles/functions";
+@import "assets/styles/variables";
+@import "assets/styles/navbar";
+@import "assets/styles/common";
+@import "assets/styles/menu";
 
-@import "assets/styles/_common";
-@import "assets/styles/_menu";
 
 
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 575px) {
+
+}

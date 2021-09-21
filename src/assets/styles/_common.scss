@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-:root {
-  --primary-color:#6f91f2 !important;
-}
-
 body{
   font-family: 'Source Sans Pro', sans-serif !important;
   margin: 0;
@@ -17,10 +13,9 @@ body{
   background: transparent !important;
 }
 .container{
-  width: 100%;
-  position: relative;
   &.space{
-    padding: 20px 20px 20px 20px;
+    padding: 0;
+    position: relative;
   }
   .p-tabview .p-tabview-nav {
     background: transparent !important;
@@ -49,13 +44,10 @@ body{
         }
       }
     }
-    //.p-tabview-ink-bar{
-    //  display: none !important;
-    //}
   }
   .tab-view{
     .p-tabview-panels{
-      height: 91vh;
+      height: 100vh;
       padding: 0 !important;
     }
   }
@@ -96,7 +88,6 @@ body{
     }
   }
 }
-
 .add-msg{
   background: url("../svg-icons/chat.svg");
   width: 25px;
@@ -178,4 +169,9 @@ body{
   &:focus{
     box-shadow: none !important;
   }
+}
+.p-tabview .p-tabview-nav .p-tabview-ink-bar{
+  height: 41px !important;
+  border-radius: 5px 5px 0 0;
+  z-index: -1 !important;
 }

@@ -22,6 +22,7 @@ import {CardModule} from 'primeng/card';
 import { SplitterComponent } from './components/splitter/splitter.component';
 import { SplitterLeftComponent } from './components/splitter-left/splitter-left.component';
 import { SplitterRightComponent } from './components/splitter-right/splitter-right.component';
+import { MenuSearchFormComponent } from './components/menu-search-form/menu-search-form.component';
 
 
 
@@ -32,7 +33,8 @@ import { SplitterRightComponent } from './components/splitter-right/splitter-rig
     MenuComponent,
     SplitterComponent,
     SplitterLeftComponent,
-    SplitterRightComponent
+    SplitterRightComponent,
+    MenuSearchFormComponent
   ],
   imports: [
     BrowserModule,

@@ -14,8 +14,8 @@ export class MenuComponent implements OnInit {
   itemsTabs2: MenuItem[] = [];
   activeItem: MenuItem | undefined;
   value: string | undefined;
-
-  constructor() { }
+  menu: boolean = false;
+  constructor() {}
 
   ngOnInit(): void {
     this.items = [
@@ -51,6 +51,10 @@ export class MenuComponent implements OnInit {
       {label: 'Delete Review', icon:'p-menuitem-svg svg-delete'}
     ];
     this.activeItem = this.itemsTabs2[2];
+  }
+
+  clickEvent() {
+    this.menu = !this.menu;
   }
 
 }
