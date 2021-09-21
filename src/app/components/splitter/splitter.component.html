@@ -1,4 +1,4 @@
-<p-splitter [style]="{'height': '100%'}" [panelSizes]="[50,50]">
+<p-splitter [style]="{'height': '100%'}" [panelSizes]="[50,50]" class="web">
   <ng-template pTemplate>
 
       <app-splitter-left></app-splitter-left>
@@ -10,3 +10,15 @@
 
   </ng-template>
 </p-splitter>
+<div class="container-fluid mobile">
+  <div class="row">
+    <div class="col-12">
+      <app-splitter-left></app-splitter-left>
+    </div>
+    <div class="col-12">
+      <app-splitter-right></app-splitter-right>
+    </div>
+  </div>
+</div>
+
+
