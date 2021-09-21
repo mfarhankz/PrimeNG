@@ -171,7 +171,5 @@ body{
   }
 }
 .p-tabview .p-tabview-nav .p-tabview-ink-bar{
-  height: 41px !important;
-  border-radius: 5px 5px 0 0;
-  z-index: -1 !important;
+ display: none !important;
 }

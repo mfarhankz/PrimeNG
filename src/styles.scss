@@ -3,7 +3,7 @@
 @import "assets/styles/variables";
 @import "assets/styles/navbar";
 @import "assets/styles/common";
-@import "assets/styles/menu";
+@import "assets/styles/tab-navbar";
 
 
 
@@ -15,27 +15,27 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-/* Large desktops and laptops */
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 767px) and (max-width: 992px){
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
-}
-
-/* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Landscape phones and portrait tablets */
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
-/* Landscape phones and smaller */
-@media (max-width: 575px) {
 
 }

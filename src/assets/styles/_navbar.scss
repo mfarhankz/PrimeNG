@@ -1,6 +1,7 @@
 
 .navbar{
   background: $primary;
+  box-shadow: -2px 1px 13px #0e0e0ee8;
   .navbar-toggler{
     background: darken($primary, 3%);
     border-radius: 10px;
@@ -187,11 +188,14 @@
     }
     .navbar-collapse{
       .search-form{
-        width: 30%;
-        margin: 0 2rem;
+        width: 20%;
+        margin: 0 0 0 2rem;
       }
       .navbar-nav{
         li {
+          a{
+            padding: 0.3rem !important;
+          }
           &.r-divider{
             margin-right: 20px !important;
             &:after{

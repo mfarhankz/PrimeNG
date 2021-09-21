@@ -10,8 +10,6 @@
     <span class="pi pi-fw pi-bars"></span>
   </button>
 
-
-
   <div class="collapse navbar-collapse" [ngClass]="menu ? 'show' : ''">
 
     <ul class="navbar-nav">
@@ -77,9 +75,10 @@
       </li>
     </ul>
   </div>
+
 </nav>
 
-<p-tabView>
+<p-tabView class="tab-view-mobile" [ngClass]="menu ? 'show' : ''">
 
   <p-tabPanel header="Home">
     <p-tabMenu [model]="itemsTabs"></p-tabMenu>
