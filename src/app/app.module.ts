@@ -23,6 +23,8 @@ import { ReviewSelectedSpLeftComponent } from './components/review-selected-sp-l
 import { ReviewSelectedSpRightComponent } from './components/review-selected-sp-right/review-selected-sp-right.component';
 import { MenuSearchFormComponent } from './components/menu-search-form/menu-search-form.component';
 import { ReviewHomeComponent } from './review-home/review-home.component';
+import { ReviewHomeSpLeftComponent } from './components/review-home-sp-left/review-home-sp-left.component';
+import { ReviewHomeSpRightComponent } from './components/review-home-sp-right/review-home-sp-right.component';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { ReviewHomeComponent } from './review-home/review-home.component';
     ReviewSelectedSpLeftComponent,
     ReviewSelectedSpRightComponent,
     MenuSearchFormComponent,
-    ReviewHomeComponent
+    ReviewHomeComponent,
+    ReviewHomeSpLeftComponent,
+    ReviewHomeSpRightComponent
   ],
   imports: [
     BrowserModule,
