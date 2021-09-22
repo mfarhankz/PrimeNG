@@ -32,7 +32,47 @@
     }
   }
   .p-tabview-panels{
-    height: 100vh;
     padding: 0 !important;
+  }
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 767px) and (max-width: 992px){
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .tab-view{
+    .p-tabview-panels{
+      height: 100vh;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .tab-view{
+    .p-tabview-panels{
+      height: 100vh;
+    }
   }
 }

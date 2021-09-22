@@ -19,8 +19,8 @@ import { ButtonModule } from 'primeng/button';
 import { RippleModule } from "primeng/ripple";
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { CardModule } from 'primeng/card';
-import { SplitterLeftComponent } from './components/splitter-left/splitter-left.component';
-import { SplitterRightComponent } from './components/splitter-right/splitter-right.component';
+import { ReviewSelectedSpLeftComponent } from './components/review-selected-sp-left/review-selected-sp-left.component';
+import { ReviewSelectedSpRightComponent } from './components/review-selected-sp-right/review-selected-sp-right.component';
 import { MenuSearchFormComponent } from './components/menu-search-form/menu-search-form.component';
 import { ReviewHomeComponent } from './review-home/review-home.component';
 
@@ -30,8 +30,8 @@ import { ReviewHomeComponent } from './review-home/review-home.component';
     AppComponent,
     ReviewSelectedComponent,
     MenuComponent,
-    SplitterLeftComponent,
-    SplitterRightComponent,
+    ReviewSelectedSpLeftComponent,
+    ReviewSelectedSpRightComponent,
     MenuSearchFormComponent,
     ReviewHomeComponent
   ],

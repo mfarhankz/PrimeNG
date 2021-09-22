@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-splitter-left',
-  templateUrl: './splitter-left.component.html',
-  styleUrls: ['./splitter-left.component.scss']
+  selector: 'app-review-selected-sp-left',
+  templateUrl: './review-selected-sp-left.component.html',
+  styleUrls: ['./review-selected-sp-left.component.scss']
 })
-export class SplitterLeftComponent implements OnInit {
+export class ReviewSelectedSpLeftComponent implements OnInit {
 
   products:any = [
     {

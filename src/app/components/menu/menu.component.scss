@@ -1,0 +1,60 @@
+@import "../../../assets/styles/functions";
+@import "../../../assets/styles/variables";
+.nav{
+  li{
+    flex-direction: column;
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    &.active{
+      a{
+        background: $gray-200 !important;
+        color: $secondary !important;
+        border-bottom: 2px $secondary solid;
+      }
+    }
+    a{
+      line-height: 1;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      padding: .7rem;
+      color: $gray-500;
+      cursor: pointer;
+      &:hover{
+        background: $gray-200 !important;
+        color: $secondary !important;
+        border-bottom: 2px $secondary solid;
+      }
+      i{
+        width: 20px;
+        height: 20px;
+        background-size: contain !important;
+        margin: 0 0 10px 0 !important;
+        display: inline-block;
+      }
+      span {
+        display: block;
+      }
+      .svg-home{
+        background: url("../../../assets/svg-icons/house.svg");
+      }
+      .svg-file{
+        background: url("../../../assets/svg-icons/folder.svg");
+      }
+      .svg-selected{
+        background: url("../../../assets/svg-icons/checkbox.svg");
+      }
+      .svg-reviews{
+        background: url("../../../assets/svg-icons/tasks.svg");
+      }
+      .svg-adduser{
+        background: url("../../../assets/svg-icons/add.svg");
+      }
+      .svg-delete{
+        background: url("../../../assets/svg-icons/delete.svg");
+      }
+    }
+
+  }
+}

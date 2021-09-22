@@ -89,7 +89,27 @@
   </p-tabPanel>
 
   <p-tabPanel header="Reviews" [selected]="true">
-    <p-tabMenu [model]="itemsTabs2"></p-tabMenu>
+<!--    <p-tabMenu [model]="itemsTabs2"></p-tabMenu>-->
+    <nav class="nav">
+      <li routerLinkActive="active">
+        <a class="nav-link" routerLink="review-home"><i class="svg-home"></i><span>Review Home</span></a>
+      </li>
+      <li routerLinkActive="active">
+        <a class="nav-link" ><i class="svg-file"></i><span>Review Entire File</span></a>
+      </li>
+      <li routerLinkActive="active">
+        <a class="nav-link" routerLink="review-selected"><i class="svg-selected"></i><span>Review Selected</span></a>
+      </li>
+      <li routerLinkActive="active">
+        <a class="nav-link" ><i class="svg-reviews"></i><span>My Reviews</span></a>
+      </li>
+      <li routerLinkActive="active">
+        <a class="nav-link" ><i class="svg-adduser"></i><span>Add Users</span></a>
+      </li>
+      <li routerLinkActive="active">
+        <a class="nav-link" ><i class="svg-delete"></i><span>Delete Review</span></a>
+      </li>
+    </nav>
   </p-tabPanel>
 
   <p-tabPanel header="Help">

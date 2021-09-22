@@ -4,8 +4,8 @@ import { ReviewSelectedComponent } from "./review-selected/review-selected.compo
 import { ReviewHomeComponent } from "./review-home/review-home.component";
 
 const routes: Routes = [
-  { path: '', component: ReviewSelectedComponent },
-  { path: 'review-review-selected', component: ReviewHomeComponent },
+  { path: 'review-home', component: ReviewHomeComponent },
+  { path: 'review-selected', component: ReviewSelectedComponent },
 ];
 
 @NgModule({

@@ -1,5 +1,6 @@
 body{
   background: #f0edf4 !important;
+  padding: 0;
 }
 .p-component{
   font-family: $font-family-sans-serif !important;
@@ -110,6 +111,12 @@ body{
   .form-wrapper{
     padding:0 20px 10px 20px;
   }
+  .mobile-splitter{
+    display: block;
+  }
+  .web-splitter{
+    display: none;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -122,6 +129,12 @@ body{
   }
   .form-wrapper{
     padding:0 20px 10px 20px;
+  }
+  .mobile-splitter{
+    display: block;
+  }
+  .web-splitter{
+    display: none;
   }
 }
 
@@ -136,6 +149,12 @@ body{
   .form-wrapper{
     padding:0 20px 10px 20px;
   }
+  .mobile-splitter{
+    display: block;
+  }
+  .web-splitter{
+    display: none;
+  }
 }
 
 
@@ -149,6 +168,12 @@ body{
   .form-wrapper{
     padding:0 20px 10px 20px;
   }
+  .mobile-splitter{
+    display: none;
+  }
+  .web-splitter{
+    display: block;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -161,5 +186,11 @@ body{
   }
   .form-wrapper{
     padding:0 20px 10px 20px;
+  }
+  .mobile-splitter{
+    display: none;
+  }
+  .web-splitter{
+    display: block;
   }
 }

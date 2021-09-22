@@ -37,25 +37,27 @@
         <textarea id="address" class="form-control" type="text" rows="4" pInputTextarea></textarea>
       </div>
 
+
+      <p-table [value]="products" styleClass="p-datatable-gridlines p-datatable-striped" responsiveLayout="scroll">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Specification Name</th>
+            <th>Type</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+          <tr>
+            <td>{{product.id}}</td>
+            <td>{{product.title}}</td>
+            <td>{{product.s_name}}</td>
+            <td>{{product.type}}</td>
+          </tr>
+        </ng-template>
+      </p-table>
+
     </div>
 
-    <p-table [value]="products" styleClass="p-datatable-gridlines p-datatable-striped" responsiveLayout="scroll">
-      <ng-template pTemplate="header">
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Specification Name</th>
-          <th>Type</th>
-        </tr>
-      </ng-template>
-      <ng-template pTemplate="body" let-product>
-        <tr>
-          <td>{{product.id}}</td>
-          <td>{{product.title}}</td>
-          <td>{{product.s_name}}</td>
-          <td>{{product.type}}</td>
-        </tr>
-      </ng-template>
-    </p-table>
   </div>
 </div>
