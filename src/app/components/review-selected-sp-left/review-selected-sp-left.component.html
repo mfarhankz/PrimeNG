@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid fluid-p-0">
   <div class="inner-wrapper">
 
     <div class="form-wrapper">
@@ -21,11 +21,11 @@
       </div>
 
       <div class="row">
-        <div class="form-group col-6">
+        <div class="form-group col-sm-12 col-md-6">
           <label for="scope">Review Scope</label>
           <p-dropdown id="scope" [options]="states" [(ngModel)]="selectedState" placeholder="Select Project" optionLabel="name"></p-dropdown>
         </div>
-        <div class="form-group col-6">
+        <div class="form-group col-sm-12 col-md-6">
           <label for="specification">Specification</label>
           <p-dropdown id="specification" [options]="states" [(ngModel)]="selectedState" placeholder="Specification" optionLabel="name"></p-dropdown>
         </div>

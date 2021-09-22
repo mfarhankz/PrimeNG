@@ -2,7 +2,6 @@
 @import "../../../assets/styles/variables";
 .nav{
   li{
-    flex-direction: column;
     border: 0 !important;
     padding: 0 !important;
     text-align: center;
@@ -56,5 +55,67 @@
       }
     }
 
+  }
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .nav{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .nav{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 767px) and (max-width: 992px){
+  .nav{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .nav{
+    li{
+      flex-direction: column;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .nav{
+    li{
+      flex-direction: column;
+    }
   }
 }
