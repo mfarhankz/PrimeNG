@@ -43,9 +43,9 @@ export class MenuComponent implements OnInit {
       {label: 'Delete Review', icon:'p-menuitem-svg svg-delete'}
     ];
     this.itemsTabs2 = [
-      {label: 'Review Home', icon:'p-menuitem-svg svg-home'},
+      {label: 'Review Home', icon:'p-menuitem-svg svg-home', url:'review-home'},
       {label: 'Review Entire File', icon:'p-menuitem-svg svg-file'},
-      {label: 'Review Selected', icon:'p-menuitem-svg svg-selected'},
+      {label: 'Review Selected', icon:'p-menuitem-svg svg-selected', url:''},
       {label: 'My Reviews', icon:'p-menuitem-svg svg-reviews'},
       {label: 'Add Users', icon:'p-menuitem-svg svg-adduser'},
       {label: 'Delete Review', icon:'p-menuitem-svg svg-delete'}

@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
-
 body{
-  margin: 0;
   background: #f0edf4 !important;
 }
 .p-component{
   font-family: $font-family-sans-serif !important;
 }
-.p-splitter{
-  padding: 0;
-  background: transparent !important;
+.text-container{
+  padding: 20px;
+}
+.p-element{
+  &:focus{
+    box-shadow: none !important;
+  }
 }
 .container-fluid{
   &.space{
@@ -53,6 +54,8 @@ body{
   position: relative;
   color: #6f91f2;
 }
+
+
 .p-card{
   margin: 20px 0;
   border-radius: 5px !important;
@@ -70,24 +73,13 @@ body{
 
 
 }
-.p-datatable .p-datatable-thead > tr > th{
-  background: #342f57 !important;
-  color: #fff !important;
-  border: 1px solid #342f57 !important;
-  font-weight: 400 !important;
-  font-size: 14px;
-}
-.p-datatable .p-datatable-tbody > tr > td{
-  font-weight: 400 !important;
-  font-size: 14px;
-}
-.p-datatable{
-  margin-bottom: 15px;
-}
-.p-datatable.p-datatable-striped .p-datatable-tbody > tr:nth-child(even) {
-  background: #f7f6f9 !important;
-}
 
+
+
+.p-splitter{
+  padding: 0;
+  background: transparent !important;
+}
 .p-splitter-panel-nested{
   display: block !important;
 }
@@ -96,14 +88,8 @@ body{
   background: #f2f1f3;
   border: 1px #e1e1e1 solid;
 }
-.text-container{
-  padding: 20px;
-}
-.p-element{
-  &:focus{
-    box-shadow: none !important;
-  }
-}
+
+
 
 
 

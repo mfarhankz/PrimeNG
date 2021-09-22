@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuItem} from 'primeng/api';
+import { MenuItem } from 'primeng/api';
 
 @Component({
-  selector: 'app-splitter',
-  templateUrl: './splitter.component.html',
-  styleUrls: ['./splitter.component.scss']
+  selector: 'app-review-home',
+  templateUrl: './review-home.component.html',
+  styleUrls: ['./review-home.component.scss']
 })
-export class SplitterComponent implements OnInit {
+export class ReviewHomeComponent implements OnInit {
 
   products:any = [
     {

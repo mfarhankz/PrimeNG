@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SplitterComponent } from './splitter.component';
+import { ReviewHomeComponent } from './review-home.component';
 
-describe('SplitterComponent', () => {
-  let component: SplitterComponent;
-  let fixture: ComponentFixture<SplitterComponent>;
+describe('ReviewHomeComponent', () => {
+  let component: ReviewHomeComponent;
+  let fixture: ComponentFixture<ReviewHomeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SplitterComponent ]
+      declarations: [ ReviewHomeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SplitterComponent);
+    fixture = TestBed.createComponent(ReviewHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

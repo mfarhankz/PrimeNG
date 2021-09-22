@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { ReviewSelectedComponent } from './review-selected/review-selected.component';
 import { FormsModule } from "@angular/forms";
 import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
@@ -19,22 +19,21 @@ import { ButtonModule } from 'primeng/button';
 import { RippleModule } from "primeng/ripple";
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { CardModule } from 'primeng/card';
-import { SplitterComponent } from './components/splitter/splitter.component';
 import { SplitterLeftComponent } from './components/splitter-left/splitter-left.component';
 import { SplitterRightComponent } from './components/splitter-right/splitter-right.component';
 import { MenuSearchFormComponent } from './components/menu-search-form/menu-search-form.component';
-
+import { ReviewHomeComponent } from './review-home/review-home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    ReviewSelectedComponent,
     MenuComponent,
-    SplitterComponent,
     SplitterLeftComponent,
     SplitterRightComponent,
-    MenuSearchFormComponent
+    MenuSearchFormComponent,
+    ReviewHomeComponent
   ],
   imports: [
     BrowserModule,
