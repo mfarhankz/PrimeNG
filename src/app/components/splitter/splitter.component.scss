@@ -1,0 +1,55 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .web-splitter{
+    display: none;
+  }
+  .mobile-splitter{
+    display: block;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  .web-splitter{
+    display: none;
+  }
+  .mobile-splitter{
+    display: block;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 767px) and (max-width: 992px){
+  .web-splitter{
+    display: none;
+  }
+  .mobile-splitter{
+    display: block;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .web-splitter{
+    display: block;
+  }
+  .mobile-splitter{
+    display: none;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+ .web-splitter{
+   display: block;
+ }
+  .mobile-splitter{
+    display: none;
+  }
+}
